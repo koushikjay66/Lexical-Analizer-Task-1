@@ -1,0 +1,17 @@
+int a, ab, b, c;
+float d, e;
+a = ab = 5;
+b = a;
+c = 6;
+for(ab = 1; ab <= 10; ab++){
+	if ( a > b)
+	{
+		c = a - b;
+		e = d - 2.0;
+	}
+	else
+	{
+		d = e + 6.55;
+		b = a + c;
+	}
+}
